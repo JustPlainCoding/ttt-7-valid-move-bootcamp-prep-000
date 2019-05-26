@@ -2,7 +2,6 @@
 
 def valid_move?(board, position)
   index = board[position]
-  puts index
   if position == (0...8) && position_taken?(index) == false
     true
   else
