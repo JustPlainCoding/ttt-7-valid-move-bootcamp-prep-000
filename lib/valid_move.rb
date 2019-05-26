@@ -11,7 +11,7 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
-def position_taken?(position)
+def position_taken?(index)
   if position == "" || position == " " || position == nil
     false
   else
